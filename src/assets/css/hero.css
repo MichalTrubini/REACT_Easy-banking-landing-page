@@ -1,3 +1,27 @@
 .hero {
   position: relative;
+  padding-top: 42.4rem;
+  background: url("../images/bg-intro-mobile.svg") no-repeat;
+  background-position-y: 25px;
+}
+.hero__mockup {
+  position: absolute;
+  top: -70px;
+  left: 0;
+}
+.hero__content {
+  padding: 0 2.4rem 8.8rem;
+}
+.hero__heading {
+  font-weight: 300;
+  font-size: 4rem;
+  line-height: 4.7rem;
+  letter-spacing: -0.71px;
+  margin-bottom: 1.6rem;
+}
+.hero__paragraph {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.23px;
+  margin-bottom: 3.2rem;
 }/*# sourceMappingURL=hero.css.map */

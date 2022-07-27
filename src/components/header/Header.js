@@ -1,6 +1,8 @@
 import logo from '../../assets/images/logo.svg';
 import hamburger from '../../assets/images/icon-hamburger.svg';
 
+import '../../assets/css/header.css';
+
 const Header = () => {
     return ( 
         <header>

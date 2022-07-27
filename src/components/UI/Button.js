@@ -1,9 +1,11 @@
+import '../../assets/css/button.css';
+
 const Button = (props) => {
 
     const buttonClass = props.className + ' button'
 
     return ( 
-        <button className={buttonClass}>{children}</button>
+        <button className={buttonClass}>{props.children}</button>
      );
 }
  

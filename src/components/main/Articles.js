@@ -1,31 +1,37 @@
 import Article from "./Article";
 
+import '../../assets/css/articles.css'
+
 const Articles = () => {
 
     const articles = [
-        {
-            src: '.\images\image-currency.jpg',
+        {   
+            id: 1,
+            src: './images/image-currency.jpg',
             alt: 'currency',
             author: 'Claire Robinson',
             header: 'Receive money in any currency with no fees',
             content: 'The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …'
         },
         {
-            src: '.\images\image-restaurant.jpg',
+            id: 2,
+            src: './images/image-restaurant.jpg',
             alt: 'restaurant',
             author: 'Wilson Hutton',
             header: 'Treat yourself without worrying about money',
             content: 'Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you …'
         },
         {
-            src: '.\images\image-plane.jpg',
+            id: 3,
+            src: './images/image-plane.jpg',
             alt: 'plane',
             author: 'Wilson Hutton',
             header: 'Take your Easybank card wherever you go',
             content: 'We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you …'
         },
         {
-            src: '.\images\image-confetti.jpg',
+            id: 4,
+            src: './images/image-confetti.jpg',
             alt: 'confetti',
             author: 'Claire Robinson',
             header: 'Our invite-only Beta accounts are now live!',
@@ -41,6 +47,7 @@ const Articles = () => {
             <div className="articles__items">
                 {articles.map(article => 
                     <Article 
+                        key={article.id}
                         src={article.src} 
                         alt={article.alt} 
                         author={article.author} 

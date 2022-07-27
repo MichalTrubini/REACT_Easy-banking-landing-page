@@ -1,3 +1,5 @@
+import '../../assets/css/article.css';
+
 const Article = (props) => {
     return ( 
         <div className="article">

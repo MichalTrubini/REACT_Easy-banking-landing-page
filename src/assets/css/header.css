@@ -1,0 +1,18 @@
+header {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background-color: white;
+}
+
+.nav {
+  padding: 2.2rem 2.4rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__list {
+  position: absolute;
+  opacity: 0;
+}/*# sourceMappingURL=header.css.map */

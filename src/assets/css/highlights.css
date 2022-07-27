@@ -1,0 +1,20 @@
+.highlights {
+  background-color: #F4F5F7;
+  padding: 6.4rem 2.4rem;
+}
+.highlights__heading {
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  letter-spacing: -0.57px;
+  margin-bottom: 1.4rem;
+}
+.highlights__introduction {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 5.6rem;
+}
+.highlights__items {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}/*# sourceMappingURL=highlights.css.map */

@@ -1,33 +1,34 @@
 import Button from "../UI/Button";
+import '../../assets/css/footer.css'
 
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo-light.svg';
 
 const Footer = () => {
 
     const social = [
         {
             id: 1,
-            src: '.\images\icon-facebook.svg',
+            src: './images/icon-facebook.svg',
             alt:'facebook'
         },
         {
             id: 2,
-            src: '.\images\icon-youtube.svg',
+            src: './images/icon-youtube.svg',
             alt:'youtube'
         },
         {
             id: 3,
-            src: '.\images\icon-twitter.svg',
+            src: './images/icon-twitter.svg',
             alt:'twitter'
         },
         {
             id: 4,
-            src: '.\images\icon-pinterest.svg',
+            src: './images/icon-pinterest.svg',
             alt:'pinterest'
         },
         {
             id: 5,
-            src: '.\images\icon-instagram.svg',
+            src: './images/icon-instagram.svg',
             alt:'instagram'
         }
     ]
@@ -36,7 +37,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer__container">
                 <div className="footer__wrapper">
-                    <div className="footer__logo-container">
+                    <div className="footer__logo-social">
                         <img className="footer__logo" src={logo} alt="Easybank" />
                         <div className="footer__social">
                             { social.map(item => <img key={item.id} src={item.src} alt={item.alt}/>)}
@@ -58,7 +59,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className="footer__container">
+            <div className="footer__container footer__bottom">
                 <Button>Request Invite</Button>
                 <p className="footer__copyright">© Easybank. All Rights Reserved</p>
             </div>
