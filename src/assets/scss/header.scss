@@ -2,6 +2,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    max-width: 42.5rem;
     background-color: white;
 }
 
@@ -13,7 +14,33 @@ header {
     justify-content: space-between;
 
     &__list {
-        position: absolute;
-        opacity: 0;
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    header {
+        max-width: 144rem;
+    }
+
+    .nav {
+        padding: 1.8rem 2.4rem;
+
+        &__list {
+            display: flex;
+            gap: 3rem;
+        }
+
+        &__list-item {
+            font-size: 1.4rem;
+            line-height: 1.6rem;
+            color: hsla(231, 8%, 61%, 1);
+            letter-spacing: -0.11px;
+        }
+
+        &__hamburger {
+            display: none;
+        }
     }
 }

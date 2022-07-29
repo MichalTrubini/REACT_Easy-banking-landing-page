@@ -1,11 +1,20 @@
 import logo from '../../assets/images/logo.svg';
 import hamburger from '../../assets/images/icon-hamburger.svg';
+import useWindowDimensions from '../../functions/WindowDimensions';
 
 import '../../assets/css/header.css';
+import Button from '../UI/Button';
 
-const Header = () => {
+const Header = (props) => {
+
+    const {width} = useWindowDimensions(); 
+
+    const tabletScreen = width > 767;
+
+    const showMenuHandler = props.showMenuHandler;
+
     return ( 
-        <header>
+        <header >
             <nav className="nav">
                 <img src={logo} alt='easyBank'/>
                 <ul className='nav__list'>
@@ -15,7 +24,8 @@ const Header = () => {
                     <li className='nav__list-item'>Blog</li>
                     <li className='nav__list-item'>Careers</li>
                 </ul>
-                <img src={hamburger} alt="mobile-menu"/>
+                {tabletScreen && <Button>Request invite</Button>}
+                <img src={hamburger} alt="mobile-menu" className="nav__hamburger" onClick={showMenuHandler}/>
             </nav>
         </header>
      );

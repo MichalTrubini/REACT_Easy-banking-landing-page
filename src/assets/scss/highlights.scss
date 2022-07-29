@@ -22,3 +22,17 @@
         gap: 3.2rem;
     }
 }
+
+@media screen and (min-width:768px) {
+
+    .highlights {
+
+        &__container {
+            width: 50rem;
+        }
+
+        &__items {
+            flex-direction: row;
+        }
+    }
+}

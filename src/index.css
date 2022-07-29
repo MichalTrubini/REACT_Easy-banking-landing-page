@@ -12,3 +12,21 @@ h1, h2, h3 {
 p {
     color: hsla(231, 8%, 61%, 1);
 }
+
+.wrapper {
+    max-width: 42.5rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+@media screen and (min-width:768px) {
+
+    body {
+        text-align: left;
+    }
+
+    .wrapper {
+        max-width: 144rem;
+    }
+}
+

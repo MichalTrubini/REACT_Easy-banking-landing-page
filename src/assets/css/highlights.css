@@ -17,4 +17,13 @@
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .highlights__container {
+    width: 50rem;
+  }
+  .highlights__items {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=highlights.css.map */
