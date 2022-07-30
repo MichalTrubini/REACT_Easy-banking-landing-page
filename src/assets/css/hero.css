@@ -56,7 +56,7 @@
 }
 @media screen and (min-width: 1125px) {
   .hero {
-    height: 65.6rem;
+    height: 73.6rem;
     display: flex;
     justify-content: flex-start;
     background-position-x: 50vw;
@@ -89,7 +89,7 @@
     width: 65rem;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1440px) {
   .hero {
     background-position-x: 72rem;
   }
