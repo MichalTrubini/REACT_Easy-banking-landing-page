@@ -71,8 +71,8 @@
         display: flex;
         justify-content: flex-start;
         background-position-x: 50vw;
-        background-position-y: -12rem;
-        background-size: 102rem;
+        background-position-y: -15rem;
+        background-size: 115rem;
 
         &__content {
             max-width: 111rem;
@@ -100,7 +100,7 @@
         &__mockup {
             top: -20px;
             right: -100px;
-            width: 65rem;
+            width: 71rem;
         }
     }
 }
@@ -109,6 +109,6 @@
 @media screen and (min-width:1440px) {
     
     .hero {
-        background-position-x: 72rem;
+        background-position-x: 65rem;
     }
 }
