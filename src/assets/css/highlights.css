@@ -26,4 +26,27 @@
   .highlights__items {
     flex-direction: row;
   }
+}
+@media screen and (min-width: 1125px) {
+  .highlights {
+    padding: 9.5rem 0;
+  }
+  .highlights__container, .highlights__items {
+    max-width: 111rem;
+    width: 100%;
+    margin: auto;
+  }
+  .highlights__heading {
+    font-size: 4rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.71px;
+    margin-bottom: 1.6rem;
+  }
+  .highlights__introduction {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.28px;
+    max-width: 63.5rem;
+    margin-bottom: 7.2rem;
+  }
 }/*# sourceMappingURL=highlights.css.map */

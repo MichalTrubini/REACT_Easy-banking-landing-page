@@ -11,4 +11,21 @@
   font-size: 1.5rem;
   line-height: 2.5rem;
   letter-spacing: -0.23px;
+}
+
+@media screen and (min-width: 1125px) {
+  .highlight__image {
+    margin-bottom: 4rem;
+  }
+  .highlight__header {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.43px;
+    margin-bottom: 2.6rem;
+  }
+  .highlight__content {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.25px;
+  }
 }/*# sourceMappingURL=highlight.css.map */

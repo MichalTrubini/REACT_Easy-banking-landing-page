@@ -18,4 +18,23 @@
   .articles__items {
     flex-direction: row;
   }
+}
+@media screen and (min-width: 1125px) {
+  .articles {
+    padding: 8rem 0;
+  }
+  .articles__header-container, .articles__items {
+    max-width: 111rem;
+    width: 100%;
+    margin: auto;
+  }
+  .articles__header {
+    font-size: 4rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.71px;
+    margin-bottom: 4rem;
+  }
+  .articles__items {
+    gap: 3rem;
+  }
 }/*# sourceMappingURL=articles.css.map */

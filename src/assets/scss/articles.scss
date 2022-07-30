@@ -24,3 +24,28 @@
         }
     }
 }
+
+@media screen and (min-width:1125px) {
+
+    .articles {
+
+        padding: 8rem 0;
+
+        &__header-container, &__items {
+            max-width: 111rem;
+            width: 100%;
+            margin: auto;
+        }
+
+        &__header {
+            font-size: 4rem;
+            line-height: 6.4rem;
+            letter-spacing: -0.71px;
+            margin-bottom: 4rem;
+        }
+
+        &__items {
+            gap: 3rem;
+        }
+    }
+}

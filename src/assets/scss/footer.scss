@@ -38,9 +38,12 @@
 
     .footer {
         padding: 4.8rem 2.4rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+
+        &__main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
 
         &__container {
             display: flex;
@@ -70,6 +73,38 @@
         &__logo-social {
             display: flex;
             flex-direction: column;
+            align-items: center;
+        }
+
+    }
+}
+
+@media screen and (min-width:1125px) {
+    
+    .footer {
+
+        &__main {
+            max-width: 111rem;
+            width: 100%;
+            margin: auto;
+        }
+
+        &__wrapper:nth-child(1){
+            margin-right: 13rem;
+        }
+
+        &__wrapper:nth-child(2){
+            margin-right: 12rem;
+        }
+
+        &__list-item:hover {
+            cursor: pointer;
+            color: hsla(158, 61%, 49%, 1);
+        }
+
+        &__social-img:hover {
+            cursor: pointer;
+            filter: brightness(0) saturate(100%) invert(56%) sepia(90%) saturate(310%) hue-rotate(106deg) brightness(96%) contrast(99%)
         }
 
     }

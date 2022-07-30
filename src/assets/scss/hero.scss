@@ -50,7 +50,7 @@
         background-size: 50rem;
 
         &__content {
-            width: 44.7rem;
+            max-width: 44.7rem;
             padding-top: 5rem;
         }
 
@@ -60,5 +60,55 @@
             right: -70px;
             width: 40rem;
         }
+    }
+}
+
+@media screen and (min-width:1125px) {
+    
+    .hero {
+
+        height: 65.6rem;
+        display: flex;
+        justify-content: flex-start;
+        background-position-x: 50vw;
+        background-position-y: -12rem;
+        background-size: 102rem;
+
+        &__content {
+            max-width: 111rem;
+            width: 100%;
+            margin: auto;
+            padding: 0;
+        }
+
+        &__heading {
+            max-width: 44.7rem;
+            font-size: 5.6rem;
+            line-height: 6.4rem;
+            letter-spacing: -1px;
+            margin-bottom: 2.4rem;
+        }
+
+        &__paragraph {
+            max-width: 44.7rem;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+            letter-spacing: -0.28px;
+            margin-bottom: 3.6rem;
+        }
+
+        &__mockup {
+            top: -20px;
+            right: -100px;
+            width: 65rem;
+        }
+    }
+}
+
+
+@media screen and (min-width:1140px) {
+    
+    .hero {
+        background-position-x: 72rem;
     }
 }

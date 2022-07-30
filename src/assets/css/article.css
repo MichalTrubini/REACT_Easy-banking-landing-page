@@ -27,4 +27,14 @@
   -o-object-fit: cover;
      object-fit: cover;
   height: 200px;
+}
+
+@media screen and (min-width: 1125px) {
+  .article__content-container {
+    padding: 2.4rem;
+  }
+  .article__header:hover {
+    cursor: pointer;
+    color: #30C88F;
+  }
 }/*# sourceMappingURL=article.css.map */
