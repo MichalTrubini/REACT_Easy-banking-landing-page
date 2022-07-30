@@ -16,3 +16,11 @@
         gap: 2.4rem;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .articles {
+        &__items {
+            flex-direction: row;
+        }
+    }
+}

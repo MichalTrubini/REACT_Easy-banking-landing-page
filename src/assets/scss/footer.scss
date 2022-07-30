@@ -33,3 +33,44 @@
         margin-top: 3.2rem;
     }
 }
+
+@media screen and (min-width:768px) {
+
+    .footer {
+        padding: 4.8rem 2.4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        &__container {
+            display: flex;
+        }
+
+        &__bottom {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &__wrapper:nth-child(1){
+            margin-right: 7rem;
+        }
+
+        &__wrapper:nth-child(2){
+            margin-right: 6rem;
+        }
+
+        &__social, &__logo {
+            margin: 0;
+        }
+
+        &__social {
+            margin-top: 4rem;
+        }
+
+        &__logo-social {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+}

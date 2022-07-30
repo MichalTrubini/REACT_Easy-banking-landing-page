@@ -21,4 +21,10 @@
   font-size: 1.3rem;
   line-height: 1.8rem;
   letter-spacing: -0.2px;
+}
+.article__img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
 }/*# sourceMappingURL=article.css.map */
